@@ -1,0 +1,11 @@
+@mixin donate-button {
+  border: 2px solid $yellow-color;
+  color: $yellow-color;
+  padding: 1rem 1.5rem;
+  transition: all .2s linear;
+
+  &:hover {
+    background: $yellow-color;
+    color: $blue-font-color;
+  }
+}

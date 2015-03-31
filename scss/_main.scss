@@ -1,0 +1,9 @@
+@import "variables";
+@import "mixins";
+
+* {
+	@import "global";
+  @import "home-page";
+  @import "about-page";
+  @import "contact-page";
+}

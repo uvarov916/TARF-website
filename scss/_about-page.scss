@@ -1,0 +1,143 @@
+section.navigation {
+  position: relative;
+
+  width: 100%;
+
+  color: $white-color;
+
+  background-color: #12698A;
+
+  .motivation-to-join {
+    margin-top: 5rem;
+
+    .text {
+      width: 100%;
+      max-width: 35rem;
+      text-transform: uppercase;
+      font-weight: 100;
+      font-size: 3.125rem;
+      margin-bottom: 4rem;
+      line-height: 1.4;
+    }
+  }
+
+  .main-menu {
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+    a {
+      font-family: $main-font-stack;
+    }
+
+    ul.right li {
+      &, & a {
+        background: rgba(255, 255, 255, 0);
+      }
+
+      & a {
+        text-transform: uppercase;
+        font-size: .875rem;
+        // font-weight: bold;
+        border: none;
+        border-radius: 2px;
+        padding: 1rem 1rem;
+        line-height: 1rem;
+      }
+
+      a.donate {
+        @include donate-button;
+      }
+    }
+
+    .title-area .name a {
+      padding-left: 0;
+    }
+  }
+}
+
+section.main-part {
+
+  padding-top: 4rem;
+  color: #556971;
+
+  .content {
+    h2, h3 {
+      font-family: $main-font-stack;
+      color: #416471;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h3 {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+
+    p, img {
+      margin-bottom: 1.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .sidebar-menu {
+    
+    background-color: rgba(#12698A, .05);
+    padding: 1.5rem;
+
+    a {
+      display: block;
+      border-radius: 4px;
+      color: #4B6771;
+      text-transform: uppercase;
+      font-size: .8rem;
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.active {
+        color: #FFC900;
+      }
+    }
+
+    margin-bottom: 1rem;
+  }
+
+  .donate-button {
+    width: 100%;
+    font-size: 1rem;
+    background: $yellow-color;
+    color: rgba(#12698A, .8);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
